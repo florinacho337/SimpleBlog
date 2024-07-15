@@ -1,0 +1,35 @@
+.App{
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #fff; 
+  z-index: 1000; /* Ensure it's above other content */
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%); /* Hide by default */
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Show sidebar */
+}
+
+.background-shade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 999; /* Below the sidebar but above other content */
+  display: none;
+}
+
+.background-shade.show {
+  display: block; /* Only show when this class is added */
+}

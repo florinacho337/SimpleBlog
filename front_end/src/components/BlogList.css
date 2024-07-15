@@ -1,0 +1,69 @@
+.blogLink {
+    text-decoration: none;
+}
+  
+.newestPostCard, .postCard {
+    cursor: pointer;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+  
+.newestPostCard {
+    height: 45vh;
+}
+  
+.postCard {
+    width: 100%;
+    height: 20vh;
+}
+  
+.postTitle {
+    color: #333; 
+    font-size: 1rem;
+}
+  
+.postContent {
+    color: #666; 
+}
+
+.modernTag {
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.ant-pagination {
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+    font-size: 16px; /* Adjusted for better readability */
+}
+
+.ant-pagination-item, .ant-pagination-item-link {
+    min-width: 40px; /* Ensures a minimum width for the items */
+    height: 40px; /* Sets a consistent height */
+    line-height: 40px; /* Centers the text vertically */
+    border-radius: 50%!important; 
+    border-color: #007bff!important; 
+    font-size: 20px; /* Makes the numbers inside bigger and more visible */
+    color: #007bff!important; /* Ensures text color contrasts with the background */
+}
+
+.ant-pagination-item-link {
+    border-color: #007bff!important; 
+}
+
+.ant-pagination-item:hover,
+.ant-pagination-item-link:hover {
+    border-color: #0056b3!important; 
+    color: black!important; /* Ensures hover state is visible */
+}

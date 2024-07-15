@@ -1,0 +1,39 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.sidebar.open {
+    transform: translateX(0);
+}
+  
+.sidebar.closed {
+    transform: translateX(-100%);
+}
+  
+.sidebar button {
+    display: flex; /* Changed from block to flex to align icons and text */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between icon and text */
+    width: 100%;
+    padding: 15px; /* Increased padding for bigger buttons */
+    font-size: 18px; /* Increased font size for better readability */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+  
+.sidebar button:hover {
+    background-color: #e0e0e0;
+}
+  
+  /* Optional: Adjust icon size if they are too big or too small */
+.sidebar button svg {
+    font-size: 40px; /* Adjust based on your preference */
+}

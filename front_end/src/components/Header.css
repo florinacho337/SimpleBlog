@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.App-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    box-shadow: 0 2px 8px #f0f1f2;
+    height: 90px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+  
+.header-section.left {
+    justify-content: flex-start;
+}
+
+.header-section.center {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.header-section.right {
+    justify-content: flex-end;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif; 
+    color: #000; 
+    transition: color 0.3s ease-in-out;
+}
+
+.title:hover {
+    color: grey; 
+}
+
+.title-link {
+    text-decoration: none;
+}
+
+.cancel-button {
+    background-color: #FFFFFF; /* Light grey background */
+    color: #333; /* Dark text color for contrast */
+    padding: 10px 20px; /* Padding for larger clickable area */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    height: 100%;
+    font-size: 20px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    color: #000; /* Darker text color on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+  }
