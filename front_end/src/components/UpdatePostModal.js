@@ -33,7 +33,7 @@ const UpdatePostModal = ({ isVisible, post, onClose, updateFunc}) => {
   };
 
   return (
-    <Modal title="Update Post" open={isVisible} onCancel={handleCancel} onOk={handleOk} >
+    <Modal title="Update Post" open={isVisible} onCancel={handleCancel} onOk={handleOk} width={"85%"}>
       <Form form={form} initialValues={{ title: post.title, author: post.author, content: post.content }}>
         <Form.Item name="title" label="Title">
           <Input />
