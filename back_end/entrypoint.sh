@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Wait for the PostgreSQL database to be ready
-./wait-for-it.sh db:5432 -- echo "Postgres is up - executing command"
+./wait-for-it.sh ${DB_HOST}:${DB_PORT} -- echo "Postgres is up - executing command"
 
 # Apply database migrations
 echo "Apply database migrations"
