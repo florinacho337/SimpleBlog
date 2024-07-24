@@ -39,7 +39,7 @@ Before you begin, ensure you have [Docker](https://www.docker.com/ "Docker") ins
    cd SimpleBlog
    ```
 
-2. Create the following files in the `back_end/` directory after cloning the repository:
+2. Create the following files in the `back_end/` directory:
 
    `db.env`
    ```env
