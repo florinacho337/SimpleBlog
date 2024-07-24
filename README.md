@@ -77,4 +77,45 @@ Before you begin, ensure you have [Docker](https://www.docker.com/ "Docker") ins
 
 ## Usage
 
-Once the setup is complete, the application will be accessible at http://localhost:3000. You can access and modify the data directly from back-end at http://localhost:8000/blogposts/.
+Once the setup is complete, the application will be accessible at http://localhost:3000.
+
+At the beginning, the application will not have any blog posts. You can start adding new blog posts using the interface provided.
+
+![SimpleBlog_start](./images/SimpleBlog_start.png)
+
+1. **Add a new post**
+
+![first step](./images/add1.png)
+
+![second step](./images/add2.png)
+
+![cancel](./images/add3.png)
+
+2. **Homepage**
+
+![home](./images/SimpleBlog.png)
+
+3. **View a post**
+
+![view post](./images/view_post.png)
+
+4. **Update post**
+
+![update post](./images/update1.png)
+
+![update popup](./images/update_popup.png)
+
+![cancel update](./images/delete_or_update2.png)
+
+![update form](./images/update3.png)
+
+5. **Delete post**
+
+![delete post](./images/delete1.png)
+
+![delete popup](./images/delete_popup.png)
+
+![cancel delete](./images/delete_or_update2.png)
+
+![after delete](./images/delete3.png)
+
