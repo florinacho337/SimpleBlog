@@ -28,20 +28,18 @@ SimpleBlog is a web application that allows users to add, delete, and modify blo
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-
-- Docker and Docker Compose installed
+Before you begin, ensure you have [Docker](https://www.docker.com/ "Docker") installed on your computer.
 
 ## Setup
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/simpleblog.git
-   cd simpleblog
+   git clone https://github.com/florinacho337/SimpleBlog.git
+   cd SimpleBlog
    ```
 
-2. Create the following files in the `back_end/` directory after cloning the repository:
+2. Create the following files in the `back_end/` directory:
 
    `db.env`
    ```env
@@ -71,8 +69,17 @@ Before you begin, ensure you have met the following requirements:
     docker compose up --build
     ```
 
+4. To close the Docker containers, open another terminal, go to the root directory of the project, and call this:
+
+   ```sh
+   docker compose down
+   ```
+
 ## Usage
+
 Once the setup is complete, the application will be accessible at http://localhost:3000. You can access and modify the data directly from back-end at http://localhost:8000/blogposts/.
+
+At the beginning, the application will not have any blog posts. You can start adding new blog posts using the interface provided.
 
 
 
